@@ -1,0 +1,292 @@
+body {
+  font-family: inter;
+  background-color: #000000;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+div {
+  letter-spacing: -0.03em;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.menu-wrapper {
+  width: 603px;
+  height: 30px;
+  margin: 44px auto 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 43px;
+}
+
+.menu-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.title-presentation {
+  width: 919px;
+  height: 156px;
+  margin: 0 auto 20px;
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 133px;
+  text-align: center;
+  letter-spacing: -0.07em;
+  color: #ff25c2;
+}
+
+.img-presentation {
+  box-sizing: border-box;
+  position: relative;
+  background-image: url("../resources/headphones.png");
+  width: 819px;
+  height: 840px;
+  margin: 90px auto 70px;
+}
+
+.subtile-identical {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subtitle-presentation {
+  position: absolute;
+  bottom: 807px;
+  left: 192px;
+  width: 430px;
+  height: 103px;
+  color: #ffffff;
+}
+
+.model-wrapper {
+  box-sizing: border-box;
+  position: relative;
+  background-image: url("../resources/earwhite.png");
+  height: 644px;
+  margin-bottom: 80px;
+}
+
+.model-title {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 375px;
+  height: 112px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 93.52%;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+.model-img {
+  position: absolute;
+  bottom: 191px;
+  left: 50px;
+  width: 141px;
+  height: 142px;
+}
+
+.model-btn {
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 51px;
+  left: 50px;
+  width: 420px;
+  height: 110px;
+  padding: 40px 61px 42px 62px;
+  border: 1px solid white;
+  border-radius: 100px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.model-wrapper-black {
+  background-image: url("../resources/earblack.png");
+  margin-bottom: 150px;
+}
+
+.funcion {
+  margin-bottom: 150px;
+  background-image: url("../resources/two_faces.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 786px;
+  width: 100%;
+}
+
+.function-wrapper {
+  margin: 0 auto;
+  padding: 190px 0;
+  width: 671px;
+  height: 406px;
+}
+
+.title-identical {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 73.52%;
+  text-align: center;
+  letter-spacing: -0.06em;
+}
+
+.function-title {
+  margin: 0 auto;
+  width: 560px;
+  height: 148px;
+  color: #ff25c2;
+}
+
+.function-description {
+  margin-top: 39px;
+}
+
+.training {
+  margin-bottom: 150px;
+}
+
+.training-title {
+  margin: 0 auto;
+  width: 676px;
+  height: 222px;
+  color: #ff25c2;
+}
+
+.list-item {
+  margin: 80px auto 0;
+  width: 507px;
+  height: 194px;
+}
+
+.list-item-logo {
+  display: block;
+  padding: 15px;
+  background: #ff25c2;
+  border-radius: 100px;
+  margin: 0 auto 20px;
+}
+
+.list-item:last-child {
+  height: 164px;
+}
+
+.description {
+  padding: 130px 0 130px;
+}
+
+.description-photo {
+  margin-bottom: 150px;
+  background-image: url("../resources/girlimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1040px;
+}
+
+.description-title {
+  height: 370px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.description-subtitle {
+  display: block;
+  width: 942px;
+  height: 200px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 40.5px;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+  margin: 0 auto 60px;
+}
+
+.desciption-link {
+  display: block;
+  box-sizing: border-box;
+  width: 866px;
+  height: 110px;
+  padding: 40px 126px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+
+.sound {
+  position: relative;
+  margin-bottom: 60px;
+  background-image: url("../resources/ladybag.png");
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.suond-title {
+  padding: 0 140px 0 110px;
+  margin-bottom: 100px;
+  height: 148px;
+  color: #ffffff;
+}
+
+.sound-subtitle {
+  position: absolute;
+  bottom: 50px;
+  left: 317px;
+  width: 475px;
+  color: #ffffff;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 200px;
+}
+
+.contact-link {
+  display: inline-block;
+  width: 211px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73.52%;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-menu {
+  margin-bottom: 48px;
+}
+
+.nothing-link {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 52px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  color: #ff25c2;
+  text-decoration: none;
+}
